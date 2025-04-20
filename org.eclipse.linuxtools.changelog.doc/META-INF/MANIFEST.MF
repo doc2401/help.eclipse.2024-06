@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 21
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.linuxtools.changelog.doc;singleton:=tru
+ e
+Bundle-Version: 2.7.1.202406032109
+Bundle-Vendor: %providerName
+Require-Bundle: org.eclipse.help
+Bundle-Localization: plugin
+Automatic-Module-Name: org.eclipse.linuxtools.changelog.doc
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-linuxtools/
+ org.eclipse.linuxtools;path="changelog/org.eclipse.linuxtools.changelog
+ .doc";commitId=f0d4e8a212a7d5a6224f95580af94a8c957e2d87
+Bundle-License: Eclipse Public License v2.0
+

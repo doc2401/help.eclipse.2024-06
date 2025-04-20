@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 21
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.linuxtools.docker.docs;singleton:=true
+Bundle-Version: 5.15.0.202406032109
+Bundle-Vendor: %providerName
+Require-Bundle: org.eclipse.help
+Bundle-Localization: plugin
+Automatic-Module-Name: org.eclipse.linuxtools.docker.docs
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-linuxtools/
+ org.eclipse.linuxtools;path="containers/org.eclipse.linuxtools.docker.d
+ ocs";commitId=f0d4e8a212a7d5a6224f95580af94a8c957e2d87
+Bundle-License: Eclipse Public License v2.0
+

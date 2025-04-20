@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 17
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Version: 2.0.0.202406051429
+Bundle-Name: %Bundle-Name
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.papyrus.infra.doc;singleton:=true
+Bundle-ClassPath: .
+Automatic-Module-Name: org.eclipse.papyrus.infra.doc
+Require-Bundle: org.eclipse.help.webapp;bundle-version="[3.10.0,4.0.0)"
+Import-Package: javax.servlet;version="[4.0.0,5.0.0)",javax.servlet.http
+ ;version="[4.0.0,5.0.0)"
+Export-Package: org.eclipse.papyrus.infra.doc.internal.filters;x-interna
+ l:=true
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/papyrus/
+ org.eclipse.papyrus.git;path="plugins/doc/org.eclipse.papyrus.infra.doc
+ ";commitId=6b7eae734566fbce74e06b4dac398ad301595450
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+
+Name: about.html
+SHA-256-Digest: GABWBDpwHnjjVGm5lFsPqtC0Ceq2Fcx6QbS3n2WAKvE=
+
+Name: plugin.xml
+SHA-256-Digest: mSo8PLxmiMOZkFxvW5RnYIg2ROAN4jrHFhsvXD9GBWE=
+
+Name: org/eclipse/papyrus/infra/doc/internal/filters/PapyrusContentFilte
+ r.class
+SHA-256-Digest: KN5uzi5L6hZbV4Ei9EGHEPQ1+bGpUWaAtCyvVZjgJcE=
+
+Name: org/eclipse/papyrus/infra/doc/internal/filters/HTMLHeadAndBodyInje
+ ctionStream.class
+SHA-256-Digest: UwdQ7rosPghTbInEThims6Pawxc/thFxPwtcmySZ1s8=
+
+Name: resource/stylesheet.css
+SHA-256-Digest: F90+KgkDOAGBZc9r8OO2Iudxvy6nYFqCoJ/wZMCHJTk=
+
+Name: toc.xml
+SHA-256-Digest: my8FgR3fOPLWkZdO7hOrvoKAO1+DiiWe1fClSpNWPOA=
+
+Name: META-INF/maven/org.eclipse.papyrus/org.eclipse.papyrus.infra.doc/p
+ om.xml
+SHA-256-Digest: O4abBB47d5Wpu+MH2sBpuB3PN22wJk4J5NCpSVhdT3k=
+
+Name: resource/PapyrusLeftBanner.gif
+SHA-256-Digest: EPMID+E/YfAKAXTSinr5VSRLahif5NKLeletf/Jxwbg=
+
+Name: META-INF/maven/org.eclipse.papyrus/org.eclipse.papyrus.infra.doc/p
+ om.properties
+SHA-256-Digest: 5zyEEQkhuo8/UnX6MQO4fHM/HH9xCMR5oBJEfCU/ADc=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: S5DZJc1j4m6rdIHXBJG4ZIID3m3+TvgBKKxm4ZsS/lQ=
+

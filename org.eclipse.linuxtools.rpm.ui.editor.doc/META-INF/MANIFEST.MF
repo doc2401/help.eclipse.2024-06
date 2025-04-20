@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.1
+Build-Jdk-Spec: 21
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundleName
+Bundle-SymbolicName: org.eclipse.linuxtools.rpm.ui.editor.doc; singleton
+ :=true
+Bundle-Version: 1.0.0.202406032109
+Bundle-Vendor: %provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.help
+Automatic-Module-Name: org.eclipse.linuxtools.rpm.ui.editor.doc
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-linuxtools/
+ org.eclipse.linuxtools;path="rpm/org.eclipse.linuxtools.rpm.ui.editor.d
+ oc";commitId=f0d4e8a212a7d5a6224f95580af94a8c957e2d87
+Bundle-License: Eclipse Public License v2.0
+
